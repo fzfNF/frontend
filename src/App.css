@@ -1,38 +1,61 @@
-.App {
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Header CSS*/
+
+.HeaderBox {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Sesori {
+  width: 10%px;
+  height: 80px;
+}
+
+.MenuBox {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  border-image: linear-gradient(#2117B7 0%, #D637A9 100%);
+  border-image-slice: 1;
+}
+
+.ClickHeader {
+  width: 80px;
+  padding-top: 23px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* NoticePage CSS*/
+
+.MainNotice {
+  width: 100%;
+  height: 100%;
+}
+
+.ShowNotice {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.LeftSide {
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.ReadNotice {
+  width: 500px;
+  height: 600px;
+  margin-top: 20px;
+  background-color: #34558B;}
